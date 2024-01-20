@@ -78,4 +78,8 @@ public class UserResource {
 		User user = service.findById(id);
 		return ResponseEntity.ok().body(user.getPosts());
 	}
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 6bcd1cb1a7a710cdae9ed842b7affb5fbccac16e
 }
